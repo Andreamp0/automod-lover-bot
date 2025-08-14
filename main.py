@@ -8,5 +8,4 @@ for comment in subreddit.stream.comments(skip_existing=True):
     if comment.author.name=="AutoModerator":
         comment.reply("good bot")
         comment.upvote()
-        comment.refresh()
         print("good botted")
