@@ -1,6 +1,6 @@
-import praw
+import praw 
 from keep_alive import keep_alive
-r = praw.Reddit('bot1')
+r = praw.Reddit('bot1') # the praw.ini file has been omitted for obvious security reasons 
 keep_alive()
 
 subreddit=r.subreddit("upvoteautomod")
